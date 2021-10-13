@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import WHEvent, Tag
 
-# Register your models here.
+admin.site.register(WHEvent)
+admin.site.register(Tag)
